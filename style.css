@@ -1,0 +1,180 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+body{
+
+font-family:"Segoe UI",Arial,sans-serif;
+
+background:#f5f7fb;
+
+color:#333;
+
+}
+
+
+
+/* Header */
+
+header{
+
+background:#12355b;
+
+color:white;
+
+text-align:center;
+
+padding:45px 20px;
+
+}
+
+
+header h1{
+
+font-size:38px;
+
+margin-bottom:12px;
+
+}
+
+
+header h2{
+
+font-size:22px;
+
+font-weight:400;
+
+}
+
+
+header p{
+
+font-size:18px;
+
+margin-top:18px;
+
+}
+
+
+
+/* Main */
+
+.container{
+
+width:85%;
+
+max-width:1100px;
+
+margin:45px auto;
+
+text-align:center;
+
+}
+
+
+.container h2{
+
+font-size:30px;
+
+color:#12355b;
+
+margin-bottom:35px;
+
+}
+
+
+
+/* PDF Buttons */
+
+.notes a{
+
+display:block;
+
+width:75%;
+
+margin:16px auto;
+
+padding:18px;
+
+background:white;
+
+border-radius:8px;
+
+text-decoration:none;
+
+color:#12355b;
+
+font-size:19px;
+
+font-weight:600;
+
+box-shadow:0 4px 12px rgba(0,0,0,0.12);
+
+border-left:6px solid #1e73be;
+
+transition:0.3s;
+
+}
+
+
+
+.notes a:hover{
+
+background:#12355b;
+
+color:white;
+
+transform:translateY(-4px);
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+background:#12355b;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+margin-top:50px;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:700px){
+
+header h1{
+
+font-size:28px;
+
+}
+
+
+.container{
+
+width:95%;
+
+}
+
+
+.notes a{
+
+width:95%;
+
+font-size:16px;
+
+}
+
+}
